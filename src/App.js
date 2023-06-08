@@ -11,10 +11,10 @@ export const App = () => {
     <Router>
       <Navbar />
       <Routes >
-        <Route exact path="/add" element={<AddUsers/>}  />
-        <Route exact path="/all" element={<AllUsers/>} />
-        <Route path="/edit/:id" element={<EditUser/>} exact />
-        <Route exact path="/invalid" element={<InvalidForm/>}/>
+        <Route path="/add" element={<AddUsers/>}  />
+        <Route path="/all" element={<AllUsers/>} />
+        <Route path="/edit/:id" element={<EditUser/>} />
+        <Route path="/invalid" element={<InvalidForm/>}/>
       </Routes >
     </Router>
     
