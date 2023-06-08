@@ -1,0 +1,53 @@
+.react-tel-input .form-control{
+  width:100%;
+}
+.image-gray{
+  filter: grayscale(100%);
+  transition: transform .5s;
+}
+.image-gray:hover{
+  filter: grayscale(0);
+  transform: scale(1.05);
+  cursor: pointer;
+}
+.content-wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+.card-wrapper{
+  background: #F9F9FC;
+}
+.name{
+  color: #3E3663;
+}
+.bio{
+  background: #EDEEFD;
+  color: #746F94;
+  padding: 15px;
+  border-radius: 25px;
+}
+.phone{
+  color: #7B7697;
+  font-weight: 400;
+}
+.email{
+  color: #7276DA;
+}
+.web{
+  color:#3E3663;
+}
+.button{
+  padding: 10px 20px;
+  border: none;
+  color: #ffffff;
+  border-radius: 25px;
+
+}
+.btn-delete{
+  background: #e7312a;
+}
+.btn-edit{
+  background: #7282da;
+}

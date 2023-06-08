@@ -1,0 +1,33 @@
+{
+  "employee": [
+    {
+      "Name": "Joseph Christian",
+      "Email": "joseph@gmail.com",
+      "Phone": "919845451212",
+      "Bio": "Hey There!!",
+      "Address": "B-12 , Galaxy Appt , B/H ITC Narmada",
+      "zip": "380045",
+      "state": "Gujarat",
+      "city": "Surat",
+      "Gender": "Male",
+      "Website": "https://www.nba.com",
+      "imageUrl": "https://res.cloudinary.com/drmykupvw/image/upload/v1686207078/m1v8kusex3ci3evkmrgd.avif",
+      "id": 15
+    },
+    {
+      "Name": "Kobe Brayant",
+      "Email": "mamba@gmail.com",
+      "Phone": "918956454545",
+      "Bio": "Mamba Mentality",
+      "Address": "Boston",
+      "zip": "102545",
+      "state": "Tamilnadu",
+      "city": "Banglore",
+      "Gender": "Male",
+      "Website": "https://www.nba.com",
+      "imageUrl": "https://res.cloudinary.com/drmykupvw/image/upload/v1686209245/c9tzabw7rxwlcjd0mkaq.png",
+      "imageAlt": "kobe",
+      "id": 17
+    }
+  ]
+}
