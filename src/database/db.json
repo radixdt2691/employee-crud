@@ -11,7 +11,7 @@
       "city": "Surat",
       "Gender": "Male",
       "Website": "https://www.nba.com",
-      "imageUrl": "https://res.cloudinary.com/drmykupvw/image/upload/v1686207078/m1v8kusex3ci3evkmrgd.avif",
+      "imageUrl": "https://res.cloudinary.com/drmykupvw/image/upload/v1686292221/user_profiles/gccxuwudipivyicbdqdm.avif",
       "id": 15
     },
     {
@@ -28,6 +28,21 @@
       "imageUrl": "https://res.cloudinary.com/drmykupvw/image/upload/v1686209245/c9tzabw7rxwlcjd0mkaq.png",
       "imageAlt": "kobe",
       "id": 17
+    },
+    {
+      "Name": "Christopher Jeff",
+      "Email": "jeff@gmail.com",
+      "Phone": "12545477878",
+      "Bio": "YOLO",
+      "Address": "2509 S Bascom Ave , California",
+      "zip": "457845",
+      "state": "Tamilnadu",
+      "city": "Chennai",
+      "Gender": "Female",
+      "Website": "https://www.instagram.com",
+      "imageUrl": "https://res.cloudinary.com/drmykupvw/image/upload/v1686234044/user_profiles/iubfpzit4dq4unoifhbz.avif",
+      "imageAlt": "female_profile",
+      "id": 18
     }
   ]
 }
