@@ -8,6 +8,7 @@
 .image-gray:hover{
   filter: grayscale(0);
   transform: scale(1.05);
+  transition: 0.4s linear all;
   cursor: pointer;
 }
 .content-wrapper{

@@ -37,8 +37,9 @@ export const EditUser = () => {
       State.current.value = response.data.state;
       City.current.value = response.data.city;
       Website.current.value = response.data.Website;
-      localStorage.setItem("Gender",response.data.Gender);
+      localStorage.setItem("Gender", response.data.Gender);
       localStorage.setItem("image", response.data.imageUrl);
+      localStorage.setItem("City", response.data.city);
     });
   });
 
@@ -133,8 +134,15 @@ export const EditUser = () => {
   ];
 
   const [selected, setSelected] = useState("");
+  const SelectedCity = localStorage.getItem("City");
+
   // const [setPhone] = useState("");
-  let type = [];
+  let type = [
+    {
+      value:SelectedCity,
+      label:SelectedCity
+    }
+  ];
 
   if (selected === "Gujarat") {
     type = guj;
@@ -226,6 +234,7 @@ export const EditUser = () => {
 
   const imgSrc = localStorage.getItem("image");
   const Gender = localStorage.getItem("Gender");
+
   return (
     <div className="container mx-auto">
       <h1 className="text-center">Edit</h1>
@@ -245,11 +254,11 @@ export const EditUser = () => {
           <div className="d-flex gap-2">
             <div className="d-flex flex-column">
               <p className="h6 text-success">New</p>
-              <img src={imageUrl} className="col-5 rounded-2"/>
+              <img src={imageUrl} className="col-5 rounded-2" />
             </div>
             <div className="d-flex flex-column">
               <p className="h6 text-danger">Current</p>
-              <img src={imgSrc} className="col-5 rounded-2"/>
+              <img src={imgSrc} className="col-5 rounded-2" />
             </div>
           </div>
         </div>
@@ -310,7 +319,6 @@ export const EditUser = () => {
             </div>
             <div className="col-3">
               <label htmlFor="City">City</label>
-              {/* <Select options={type} ref={City}></Select> */}
               <select ref={City} value={type.value} className="form-control">
                 {type.map(({ value, label }, index) => (
                   <option value={value}>{label}</option>
