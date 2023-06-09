@@ -34,9 +34,9 @@ export const AllUsers = () => {
   return (
     <>
       <div className="container mx-auto py-3">
-        <div className="content-wrapper">
+        <div className="content-wrapper flex-lg-row flex-column">
           {user.map((data) => (
-            <Flippy flipOnHover={false} flipOnClick={true} flipDirection="horizontal" className='card-wrapper col-3'>
+            <Flippy flipOnHover={false} flipOnClick={true} flipDirection="horizontal" className='card-wrapper col-lg-3 col-sm-12'>
               <FrontSide className='d-flex align-items-center gap-3 flex-column'>
                 <img src={data.imageUrl} alt={data.imageAlt} className='rounded-circle image-gray' width="160" height="160"/>
                 <p className="h4 name">{data.Name}</p>

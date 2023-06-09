@@ -262,7 +262,7 @@ const AddUsers = () => {
       <h1 className="text-center">Register Yourself</h1>
       <form
         method="post"
-        className="col-5 d-flex flex-column gap-3 justify-center mx-auto"
+        className="col-12 col-lg-5 d-flex flex-column gap-3 justify-center mx-auto"
       >
         <div className="form-group">
           <label htmlFor="Image">Image</label>
@@ -330,8 +330,8 @@ const AddUsers = () => {
         </div>
 
         <div className="form-group">
-          <div className="d-flex justify-content-center gap-3">
-            <div className="col-3">
+          <div className="d-flex flex-column flex-lg-row justify-content-center gap-3">
+            <div className="col-12 col-lg-3">
               <label htmlFor="Zip">Zip-Code</label>
               <input
                 type="text"
@@ -341,7 +341,7 @@ const AddUsers = () => {
                 required
               />
             </div>
-            <div className="col-3">
+            <div className="col-12 col-lg-3">
               <label htmlFor="State">State</label>
               <select
                 ref={State}
@@ -356,7 +356,7 @@ const AddUsers = () => {
                 ))}
               </select>
             </div>
-            <div className="col-3">
+            <div className="col-12 col-lg-3">
               <label htmlFor="City">City</label>
               {/* <Select options={type} ref={City}></Select> */}
               <select
@@ -375,7 +375,7 @@ const AddUsers = () => {
         </div>
 
         <div className="form-group">
-          <div className="d-flex justify-content-center align-items-center gap-4">
+          <div className="d-flex flex-wrap flex-lg-nowrap justify-content-start justify-content-lg-center align-items-center gap-4">
             <div className="form-check">
               <input
                 className="form-check-input"
@@ -405,9 +405,9 @@ const AddUsers = () => {
               </label>
             </div>
             <div>
-              <h3>|</h3>
+              <h3 className="d-none d-lg-block">|</h3>
             </div>
-            <div className="col-5 d-flex gap-2 align-items-center">
+            <div className="col-12 col-lg-5 d-flex gap-2 align-items-center">
               <label htmlFor="Website">Website</label>
               <input
                 type="text"
